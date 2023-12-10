@@ -10,7 +10,7 @@ function calc(num1, num2): number {
   return num1 + num2;
 }
 
-function customError(): void {
+function customError(): never {
   throw new Error("Error");
 }
 
